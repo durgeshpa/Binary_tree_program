@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+class Tree
+{public:
+	int data;
+	Tree *left;
+	Tree *right;
+	Tree(int x)
+	{
+		data=x;
+		left=NULL;
+		right=NULL;
+		
+	}
+};
